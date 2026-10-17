@@ -6,9 +6,10 @@ A visually captivating ice cream website inspired by soft purple tones, delightf
 
 **🌐 LIVE WEBSITE**https://ansharahyaqoob801-creator.github.io/icecream-website/
 
-**Live Demo:** https://YOUR-USERNAME.github.io/PurpleIcecream3D/
+**Live Demo:**https://ansharahyaqoob801-creator.github.io/icecream-website/
 
-**GitHub Repository:** https://github.com/YOUR-USERNAME/PurpleIcecream3D
+**GitHub Repository:**git remote add origin https://github.com/ansharahyaqoob801-creator/icecream-website.git
+
 
 > Replace `YOUR-USERNAME` with your GitHub username. Enable GitHub Pages to publish the live website.
 
