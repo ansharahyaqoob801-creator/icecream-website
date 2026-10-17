@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#190733">
+  <title>Purple Icecream — Taste the Magic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sparkle-layer" aria-hidden="true"></div>
+  <header class="header">
+    <a class="logo" href="#home"><span class="logo-icon">🍦</span><span>Purple<small>Icecream</small></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#flavors">Menu</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#flavors">Order Now <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">✦ SWEET MOMENTS · COOL VIBES ✦</p>
+        <h1>Life is better<br>with <em>Purple Icecream.</em></h1>
+        <p class="hero-description">Indulge in the magical taste of our dreamy ice cream. Made with real ingredients, endless love, and a sprinkle of happiness.</p>
+        <div class="hero-buttons"><a class="button primary" href="#flavors">Explore Menu <span>→</span></a><a class="button outline" href="#about"><span>▷</span> Our Story</a></div>
+        <div class="hero-rating"><span class="rating-stars">★★★★★</span><span><b>4.9/5 sweet smiles</b><small>From our happy scoop club</small></span></div>
+      </div>
+      <div class="hero-visual" aria-label="3D purple ice cream artwork">
+        <div class="visual-halo"></div>
+        <div class="floating-ring ring-one"></div><div class="floating-ring ring-two"></div>
+        <img src="images/purple-icecream-3d.png" alt="Glossy 3D purple ice cream, berries and sparkles" class="hero-image">
+        <div class="float-label label-top">✨ Made of magic</div><div class="float-label label-bottom">A little scoop of joy 💜</div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO DISCOVER</span><span class="scroll-line"></span><span>✧</span></div>
+    </section>
+
+    <section class="benefits" id="about">
+      <article><span class="benefit-icon">✿</span><div><h3>Real Ingredients</h3><p>Simple, lovely ingredients</p></div></article>
+      <article><span class="benefit-icon">♡</span><div><h3>Rich & Creamy</h3><p>Silky smooth happiness</p></div></article>
+      <article><span class="benefit-icon">✧</span><div><h3>Freshly Made</h3><p>Small batches, big smiles</p></div></article>
+      <article><span class="benefit-icon">☻</span><div><h3>Joy in Every Scoop</h3><p>Made to brighten your day</p></div></article>
+    </section>
+
+    <section class="flavors section" id="flavors">
+      <div class="section-heading"><p class="eyebrow">YOUR NEW FAVORITE IS HERE</p><h2>Our Special <em>Flavors</em></h2><p>Choose your favorite flavor and taste the magic.</p></div>
+      <div class="product-grid">
+        <article class="product-card"><div class="product-art art-purple"><span class="product-scoop">🍦</span><span class="heart">♡</span><span class="art-stars">✦ ✧ ✦</span></div><div class="product-info"><span class="product-tag">BESTSELLER</span><h3>Classic Purple</h3><p>The timeless favorite!</p><div class="product-bottom"><strong>$4.99</strong><button class="add-button" data-flavor="Classic Purple">Add to Cart <span>＋</span></button></div></div></article>
+        <article class="product-card"><div class="product-art art-blue"><span class="product-scoop">🫐</span><span class="heart">♡</span><span class="art-stars">✦ ✧</span></div><div class="product-info"><span class="product-tag">BERRY GOOD</span><h3>Blueberry Dream</h3><p>Fruity, creamy, magical!</p><div class="product-bottom"><strong>$5.49</strong><button class="add-button" data-flavor="Blueberry Dream">Add to Cart <span>＋</span></button></div></div></article>
+        <article class="product-card"><div class="product-art art-choco"><span class="product-scoop">🍫</span><span class="heart">♡</span><span class="art-stars">✧ ✦ ✧</span></div><div class="product-info"><span class="product-tag">CHOCOLATE LOVE</span><h3>Choco Galaxy</h3><p>Chocolate meets purple magic.</p><div class="product-bottom"><strong>$5.49</strong><button class="add-button" data-flavor="Choco Galaxy">Add to Cart <span>＋</span></button></div></div></article>
+        <article class="product-card"><div class="product-art art-galaxy"><span class="product-scoop">🌌</span><span class="heart">♡</span><span class="art-stars">✦ ✧ ✦</span></div><div class="product-info"><span class="product-tag">COSMIC FAVORITE</span><h3>Galaxy Scoop</h3><p>A taste of the stars!</p><div class="product-bottom"><strong>$6.49</strong><button class="add-button" data-flavor="Galaxy Scoop">Add to Cart <span>＋</span></button></div></div></article>
+        <article class="product-card"><div class="product-art art-pink"><span class="product-scoop">🍓</span><span class="heart">♡</span><span class="art-stars">✧ ✦ ✧</span></div><div class="product-info"><span class="product-tag">FRUITY & FRESH</span><h3>Strawberry Bliss</h3><p>Sweet, fruity, delicious!</p><div class="product-bottom"><strong>$5.49</strong><button class="add-button" data-flavor="Strawberry Bliss">Add to Cart <span>＋</span></button></div></div></article>
+      </div>
+      <div class="cart-status" role="status" aria-live="polite"><span>🛍️</span> Your cart has <b id="cart-count">0</b> scoops <span id="cart-message">— ready for something sweet?</span></div>
+    </section>
+
+    <section class="story section" id="gallery">
+      <div class="story-copy"><p class="eyebrow">A LITTLE DREAM IN EVERY SCOOP</p><h2>Made with love.<br>Served with <em>sparkle.</em></h2><p>We believe dessert should feel like a celebration. That's why every Purple Icecream scoop is a colorful little escape, made for sharing, smiling, and making sweet memories.</p><a href="#contact" class="button primary">Meet the Scoop Club <span>→</span></a></div>
+      <div class="story-scene"><div class="scene-platform"></div><div class="scene-scoop scoop-one"></div><div class="scene-scoop scoop-two"></div><div class="scene-cone">╳</div><span class="scene-sparkle s1">✦</span><span class="scene-sparkle s2">✧</span><span class="scene-sparkle s3">♡</span><span class="scene-note">Sweet dreams<br>in every scoop</span></div>
+    </section>
+
+    <section class="promo section" id="contact"><div class="promo-icon">💌</div><div class="promo-copy"><p class="eyebrow">GOOD VIBES, DELIVERED</p><h2>Follow us for <em>sweet updates!</em></h2><p>Join the Scoop Club for new flavors, fun surprises, and all things purple.</p></div><form id="newsletter-form" class="signup"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Your email address" required><button class="button primary" type="submit">Subscribe →</button><small class="form-message" aria-live="polite"></small></form></section>
+  </main>
+
+  <footer class="footer"><a class="logo" href="#home"><span class="logo-icon">🍦</span><span>Purple<small>Icecream</small></span></a><div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#flavors">Menu</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div><div class="socials"><a href="#contact" aria-label="Instagram">◎</a><a href="#contact" aria-label="Facebook">f</a><a href="#contact" aria-label="TikTok">♪</a><a href="#contact" aria-label="YouTube">▶</a></div><small class="copyright">© <span id="year"></span> Purple Icecream. All rights reserved. Made with ♡</small></footer>
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
