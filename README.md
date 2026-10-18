@@ -95,11 +95,6 @@ Discover a delightful selection of ice cream flavors featured in the website.
 Run the project locally in just a few steps.
 
 **1. Clone the Repository**
-
-```bash
-git clone https://github.com/YOUR-USERNAME/PurpleIcecream3D.git
-```
-
 **2. Open the Project Folder**
 
 ```bash
